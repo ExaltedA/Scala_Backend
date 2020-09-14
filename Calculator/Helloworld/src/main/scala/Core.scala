@@ -9,8 +9,9 @@ class Core() {
   case object INPUT extends State;
   case object EVALUATION extends State;
   case object OUTPUT extends State;
-// Fields delaration
+  // Fields delaration
   var expr: String = ""
+  var ind = 0
   var res: Float = 0;
   var isFinished = false;
   var curState: State = INPUT // always start from input logic
@@ -24,13 +25,13 @@ class Core() {
 
     while (!isFinished) {
       curState match {
-          //Simply handles input logic
+        //Simply handles input logic
         case INPUT => {
           println("Enter expression:")
           expr = readLine().replaceAll("\\s", "")
           curState = EVALUATION
         }
-          //handles logic
+        //handles logic
         case EVALUATION => {
           try {
             //add to array all except operators and convert them to float
@@ -43,25 +44,51 @@ class Core() {
               //if not change to initial state
               curState = INPUT
             }
-            if(curState == EVALUATION)
+            if(curState == EVALUATION) {
+              if(signArr.contains("*") && signArr.length > 1){
+                var tmp = signArr.indexOf("*")
+                arr(tmp) = arr(tmp) * arr(tmp+1)
+
+                signArr(tmp) = ""
+                println(s"process find:" + arr(0) + " "+ arr(1) + "signs:" + signArr(0) + " " + signArr(1) )
+              }
+              if(signArr.contains("/") && signArr.length > 1){
+                var tmp = signArr.indexOf("/")
+                arr(tmp) = arr(tmp) / arr(tmp+1)
+
+                signArr(tmp) = ""
+                println(s"process find:" + arr(0) + " "+ arr(1) + "signs:" + signArr(0) + " " + signArr(1) )
+              }
               for (i <- signArr.indices) {
                 signArr(i) match {
+
                   case "+" => {
+                    println(arr(i + 1))
                     arr(i + 1) = arr(i) + arr(i + 1)
+                    ind = i
+                    println(arr(i + 1))
                   }
                   case "-" => {
                     arr(i + 1) = arr(i) - arr(i + 1)
+                    ind = i
                   }
                   case "*" => {
                     arr(i + 1) = arr(i) * arr(i + 1)
+                    ind = i
                   }
                   case "/" => {
                     arr(i + 1) = arr(i) / arr(i + 1)
+                    ind = i
                   }
+                  case "" => println()
                   case _ => println("You were trying to use several operators simultaneously")
                 }
+
+
               }
-            res = arr(arr.length - 1)
+            }
+
+            res = arr(ind+1)
             if (curState == EVALUATION)
               curState = OUTPUT
           }
