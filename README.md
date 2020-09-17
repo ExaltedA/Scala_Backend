@@ -9,4 +9,4 @@ Content:
   - coming soon
  
 
- [Week3]: <https://github.com/ExaltedA/Scala_Backend/tree/master/Week3/README.md>
+ [Week3]: <https://github.com/ExaltedA/Scala_Backend/blob/master/Week3/Readme.md>
