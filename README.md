@@ -1,5 +1,5 @@
 # This is Highload Backend on Scala Course repo
->Author: Yessenturov Aldiyar
+>Author: Yessenturov Aldiyar<br>
 >email: aldie1741@gmail.com
 
 Content:
