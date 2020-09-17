@@ -1,0 +1,1 @@
+scalac -bootclasspath C:\Users\aldie\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar -classpath C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes C:\Users\aldie\Documents\Git\Backend_Scala\Week3\src\main\scala\week3\Task2.scala

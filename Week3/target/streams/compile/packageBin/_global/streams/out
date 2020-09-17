@@ -1,0 +1,17 @@
+[debug] Packaging C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\week3_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	week3
+[debug] 	  C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes\week3
+[debug] 	week3\main$.class
+[debug] 	  C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes\week3\main$.class
+[debug] 	week3\main$delayedInit$body.class
+[debug] 	  C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes\week3\main$delayedInit$body.class
+[debug] 	week3\main.class
+[debug] 	  C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes\week3\main.class
+[debug] 	week3\Task2$ListNode$.class
+[debug] 	  C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes\week3\Task2$ListNode$.class
+[debug] 	week3\Task2$ListNode.class
+[debug] 	  C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes\week3\Task2$ListNode.class
+[debug] 	week3\Task2.class
+[debug] 	  C:\Users\aldie\Documents\Git\Backend_Scala\Week3\target\scala-2.13\classes\week3\Task2.class
+[debug] Done packaging.
