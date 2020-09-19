@@ -1,5 +1,5 @@
 package week3
-//faster than 72% and uses less than 85.71%
+//TODO:faster than 72% and uses less than 85.71%
 class Task7 {
 //driver
   val mat = Array(

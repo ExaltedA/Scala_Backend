@@ -1,9 +1,10 @@
 package week3
 
 class Task6 {
+  //Driver
   val n = 5
   println(sumZero(n).mkString("Array(", ", ", ")"))
-
+//function acts based on n's status as either odd or even(Special Case: 1)
   def sumZero(n: Int): Array[Int] = {
     val b:Array[Int]=new Array[Int](n)
     if(n==1)
