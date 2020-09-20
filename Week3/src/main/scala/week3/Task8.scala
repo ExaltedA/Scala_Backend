@@ -36,5 +36,9 @@ class Task8 {
 
 }
 
+abstract case class CustomFunction(){
+  def f(x:Int, y:Int) :Int {}
+}
+
 
 

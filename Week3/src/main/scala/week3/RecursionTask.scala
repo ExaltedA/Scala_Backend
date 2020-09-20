@@ -1,6 +1,6 @@
 package week3
 
-class RecurisionTask {
+class RecursionTask {
   //driver for Recursion task
   val ints: List[Int] = List(1,15,6,7,8,7)
   val target = 8

@@ -2,7 +2,10 @@ package week3
 
 class Task1 {
   //LCode task 1
-  //No Driver Provided
+  //Driver
+  val candies = Array(2,3,5,1,3)
+  val extraCandies = 3
+  println(kidsWithCandies(candies, extraCandies).mkString("Array(", ", ", ")"))
   def kidsWithCandies(candies: Array[Int], extraCandies: Int): Array[Boolean] = {
     var max = 0
     //checks for the max before adding extras
