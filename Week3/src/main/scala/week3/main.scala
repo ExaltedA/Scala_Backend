@@ -20,7 +20,7 @@ object main extends App {
   //val task5 = new Task5()
   //val task6 = new Task6()
   //val task7 = new Task7()
-  val task9 = new Task9()
+  //val task9 = new Task9()
   //val task10 = new Task10()
 
 
