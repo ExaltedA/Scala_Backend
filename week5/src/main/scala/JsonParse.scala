@@ -95,6 +95,4 @@ class JsonParse(var filename:String) {
   val bw = new BufferedWriter(new FileWriter(file))
   bw.write(doc.asJson.toString())
   bw.close()
-
-
 }

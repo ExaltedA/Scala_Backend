@@ -1,6 +1,7 @@
 package Quiz
 
 class Task1 {
+
   //Driver is not provided 90% faster
 
   class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null) {
@@ -10,25 +11,24 @@ class Task1 {
   }
 
   def rangeSumBST(root: TreeNode, L: Int, R: Int): Int = {
-    var sum = 0
 
-    def analyze(root: TreeNode, L: Int, R: Int): Unit = {
-      if (root != null) {
-        if (root.value >= L && root.value <= R) {
-          sum += root.value
-        }
-        if (root.right != null) {
-          analyze(root.right, L, R)
-        }
-        if (root.left != null) {
-          analyze(root.left, L, R)
-        }
 
-      }
-    }
-
-    analyze(root, L, R)
-    sum
+    def analyze(root: Option[TreeNode], L: Int, R: Int, cnt:Int): Int = {
+      var nSum = cnt
+      root match {
+        case Some(node) => {
+          if (node.value >= L && node.value <= R) {
+            nSum += node.value
+          }
+          nSum += analyze(Some(node.right), L, R, nSum)
+          nSum += analyze(Some(node.left), L, R, nSum)
+          nSum
+        }
+        case None => {
+          0
+        }
+      }}
+    analyze(Option(root), L, R, 0)
 
   }
 }
