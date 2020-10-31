@@ -9,5 +9,6 @@ Content:
   - Week 4 | 
   - Week 5 |
   - Quiz 1 |
+  - SIS 6  | Calculator through Actors
 
  [Week3]: <https://github.com/ExaltedA/Scala_Backend/blob/master/Week3/Readme.md>
