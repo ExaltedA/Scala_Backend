@@ -16,11 +16,12 @@ object HttpServerRoutingMinimal {
     implicit val executionContext = system.executionContext
 
     val route =
-      path("hello") {
+      path("ping") {
         get {
-          complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>Say hello to akka-http</h1><br><p>Giroo</p>"))
+          complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>PONG</h1><br><p>HEy HEY!!</p>"))
         }
       }
+
 
     val bindingFuture = Http().newServerAt("localhost", 8080).bind(route)
 
