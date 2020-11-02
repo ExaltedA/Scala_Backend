@@ -1,0 +1,10 @@
+[debug] > Exec(all {file:/C:/Users/aldie/Desktop/AddressBook/}addressbook/products {file:/C:/Users/aldie/Desktop/AddressBook/}addressbook/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\aldie\Desktop\AddressBook\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 10 s, completed 2 нояб. 2020 г., 21:51:10
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t akkahttp-quickstart:0.2 .[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory C:\Users\aldie\Desktop\AddressBook\target\docker\stage[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  39.14MB[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 1/6 : FROM openjdk:8-jre-alpine[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> f7a292bbb70c[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 2/6 : WORKDIR /opt/docker[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in e23984357edd[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container e23984357edd[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> d85c2ca9928a[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 3/6 : ADD --chown=daemon:daemon opt /opt[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> d6cce2e13b8f[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 4/6 : USER daemon[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in cb231faca3c2[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container cb231faca3c2[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> a8d8f827fb5e[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 5/6 : ENTRYPOINT ["/opt/docker/bin/addressbook"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in e1a742ba9320[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container e1a742ba9320[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 585eae3e5aa6[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 6/6 : CMD ["/opt/docker/bin/akkahttp-sample"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 74d9efb09e58[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 74d9efb09e58[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 9e174fdb6065[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 9e174fdb6065[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged akkahttp-quickstart:0.2[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mBuilt image akkahttp-quickstart with tags [0.2][0m[0J

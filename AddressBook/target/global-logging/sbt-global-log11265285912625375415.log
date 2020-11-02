@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 13.0.2)
+[debug]       Load.loadUnit: plugins took 215.4697ms
+[debug]       Load.loadUnit: defsScala took 0.4636ms
+[debug] [Loading] Scanning directory C:\Users\aldie\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\aldie\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 29.7423 ms
+[debug]           Load.resolveProject(global-plugins) took 62.1656ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\aldie\.sbt\1.0\plugins, plugins: List(<none>))) took 130.4844ms
+[debug] [Loading] Done in C:\Users\aldie\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 157.8329ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3419ms
+[debug]     Load.loadUnit(file:/C:/Users/aldie/.sbt/1.0/plugins/, ...) took 389.2083ms
+[debug]   Load.apply: load took 611.9873ms
+[debug]   Load.apply: resolveProjects took 7.4699ms
+[debug]   Load.apply: finalTransforms took 72.6916ms
+[debug]   Load.apply: config.delegates took 10.4603ms
+[debug]   Load.apply: Def.make(settings)... took 2194.3603ms
+[debug]   Load.apply: structureIndex took 474.5099ms
+[debug]   Load.apply: mkStreams took 4.0294ms
+[info] loading global plugins from C:\Users\aldie\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 16901.4509ms
+[debug]           Load.loadUnit: plugins took 42.195ms
+[debug]           Load.loadUnit: defsScala took 0.0047ms
+[debug] [Loading] Scanning directory C:\Users\aldie\Desktop\AddressBook\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\aldie\Desktop\AddressBook\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4769 ms
+[debug]               Load.resolveProject(addressbook-build) took 2.5431ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id addressbook-build, base: C:\Users\aldie\Desktop\AddressBook\project, plugins: List(<none>))) took 5.8112ms
+[debug] [Loading] Done in C:\Users\aldie\Desktop\AddressBook\project, returning: (addressbook-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 8.4984ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0102ms
+[debug]         Load.loadUnit(file:/C:/Users/aldie/Desktop/AddressBook/project/, ...) took 54.0217ms
+[debug]       Load.apply: load took 57.4207ms
+[debug]       Load.apply: resolveProjects took 0.1706ms
+[debug]       Load.apply: finalTransforms took 10.5064ms
+[debug]       Load.apply: config.delegates took 0.5798ms
+[debug]       Load.apply: Def.make(settings)... took 237.2086ms
+[debug]       Load.apply: structureIndex took 67.0645ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from C:\Users\aldie\Desktop\AddressBook\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2012.6039ms
+[debug]     Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\aldie\Desktop\AddressBook
+[debug]       Load.loadUnit: mkEval took 7.3756ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\aldie\Desktop\AddressBook, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.1702 ms
+[info] loading settings for project addressbook from build.sbt ...
+[debug]         Load.resolveProject(addressbook) took 3.4827ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id addressbook, base: C:\Users\aldie\Desktop\AddressBook, plugins: List(<none>))) took 5.1037ms
+[debug] [Loading] Done in C:\Users\aldie\Desktop\AddressBook, returning: (addressbook)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2761.3433ms
+[debug]     Load.loadUnit: cleanEvalClasses took 20.2943ms
+[debug]   Load.loadUnit(file:/C:/Users/aldie/Desktop/AddressBook/, ...) took 4795.3659ms
+[debug] Load.apply: load took 4797.4756ms
+[debug] Load.apply: resolveProjects took 0.1089ms
+[debug] Load.apply: finalTransforms took 8.4472ms
+[debug] Load.apply: config.delegates took 0.3222ms
+[debug] Load.apply: Def.make(settings)... took 82.8391ms
+[debug] Load.apply: structureIndex took 24.6109ms
+[debug] Load.apply: mkStreams took 0.0032ms
+[info] set current project to AddressBook (in build file:/C:/Users/aldie/Desktop/AddressBook/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-4cde9a5955c87bb94c69

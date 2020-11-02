@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\aldie\Desktop\AddressBook\target\scala-2.13\addressbook_2.13-0.2-sources.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\resources\application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\resources\logback.xml[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Address.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\Address.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	AddressDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\AddressDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	AddressRepository.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\AddressRepository.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ApiError.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\ApiError.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	HealthCheackRoute.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\HealthCheackRoute.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	HttpServerSample.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\HttpServerSample.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Router.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\Router.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Server.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\Server.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Validator.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\Validator.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ValidatorDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\aldie\Desktop\AddressBook\src\main\scala\ValidatorDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J
