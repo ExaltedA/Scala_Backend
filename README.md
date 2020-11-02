@@ -10,5 +10,8 @@ Content:
   - Week 5 |
   - Quiz 1 |
   - SIS 6  | Calculator through Actors
+  - SIS 8  | ping-pong server 
+  - Addressbook  | Deployed on Heroku [http://worldtracing.herokuapp.com/address]
+
 
  [Week3]: <https://github.com/ExaltedA/Scala_Backend/blob/master/Week3/Readme.md>
