@@ -1,0 +1,60 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.4 (Oracle Corporation Java 13.0.2)
+[debug]       Load.loadUnit: plugins took 318.9752ms
+[debug]       Load.loadUnit: defsScala took 0.3727ms
+[debug] [Loading] Scanning directory C:\Users\aldie\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\aldie\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 58.1631 ms
+[debug]           Load.resolveProject(global-plugins) took 105.7683ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\aldie\.sbt\1.0\plugins, plugins: List(<none>))) took 212.2704ms
+[debug] [Loading] Done in C:\Users\aldie\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 253.9193ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4517ms
+[debug]     Load.loadUnit(file:/C:/Users/aldie/.sbt/1.0/plugins/, ...) took 589.7588ms
+[debug]   Load.apply: load took 895.1182ms
+[debug]   Load.apply: resolveProjects took 7.9035ms
+[debug]   Load.apply: finalTransforms took 89.5019ms
+[debug]   Load.apply: config.delegates took 19.5392ms
+[debug]   Load.apply: Def.make(settings)... took 2472.2331ms
+[debug]   Load.apply: structureIndex took 238.4664ms
+[debug]   Load.apply: mkStreams took 32.633ms
+[info] loading global plugins from C:\Users\aldie\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7547.0723ms
+[debug]           Load.loadUnit: plugins took 109.4066ms
+[debug]           Load.loadUnit: defsScala took 0.006ms
+[debug] [Loading] Scanning directory C:\Users\aldie\Documents\Git\Backend_Scala\SIS10\project
+[debug]             Load.loadUnit: mkEval took 13.3301ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\aldie\Documents\Git\Backend_Scala\SIS10\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.0615 ms
+[info] loading settings for project sis10-build from plugins.sbt ...
+[debug]               Load.resolveProject(sis10-build) took 3.8391ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sis10-build, base: C:\Users\aldie\Documents\Git\Backend_Scala\SIS10\project, plugins: List(<none>))) took 8.8046ms
+[debug] [Loading] Done in C:\Users\aldie\Documents\Git\Backend_Scala\SIS10\project, returning: (sis10-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4948.6483ms
+[debug]           Load.loadUnit: cleanEvalClasses took 42.098ms
+[debug]         Load.loadUnit(file:/C:/Users/aldie/Documents/Git/Backend_Scala/SIS10/project/, ...) took 5102.0885ms
+[debug]       Load.apply: load took 5104.2458ms
+[debug]       Load.apply: resolveProjects took 0.1957ms
+[debug]       Load.apply: finalTransforms took 17.9113ms
+[debug]       Load.apply: config.delegates took 0.3829ms
+[debug]       Load.apply: Def.make(settings)... took 134.7247ms
+[debug]       Load.apply: structureIndex took 249.2683ms
+[debug]       Load.apply: mkStreams took 0.0034ms
+[info] loading project definition from C:\Users\aldie\Documents\Git\Backend_Scala\SIS10\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
